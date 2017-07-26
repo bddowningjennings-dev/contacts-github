@@ -20,5 +20,6 @@ $(document).ready(function() {
             // console.log('clicked');
           })
       })
+        .fail(function() {alert('errrr')});
   })
 })
