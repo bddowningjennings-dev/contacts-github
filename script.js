@@ -1,12 +1,11 @@
 $(document).ready(function() {
   $("form").submit(function( event ) {
-  alert( "Handler for .submit() called." );
   event.preventDefault();
   $("tbody").append(
     "<tr><td>"+$("#first-name").val()+
     "<td>"+$("#last-name").val()+
     "<td>"+$("#email").val()+
-    "<td>"+$("#contact").val()+
+    "<td>"+$("#contact-number").val()+
     "</td></tr>"
   );
   $("form input").val("");
