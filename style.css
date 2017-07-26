@@ -5,21 +5,11 @@
 }
 .wrapper {
   background-color: mediumaquamarine;
-  width: 1500px;
-  height: 900px;
-}
-thead {
-  background-color: teal;
-  color: whitesmoke;
-}
-table {
-  display: inline-block;
-  vertical-align: top;
   width: 970px;
+  height: 900px;
+  margin-left: 200px;
 }
-th {
-  padding: 5px 65px;
-}
+
 input {
   display: inline-block;
   text-align: right;
@@ -51,6 +41,8 @@ p.user-form  {
 }
 aside {
   margin-left: 60px;
+  margin-top: -200px;
+  vertical-align: top;
   display: inline-block;
 }
 img {
@@ -63,4 +55,7 @@ img {
   padding: 20px 30px;
   width: 300px;
   height: 350px;
+}
+#bio {
+  height: 250px;
 }
